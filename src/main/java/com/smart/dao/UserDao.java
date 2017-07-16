@@ -24,6 +24,7 @@ public class UserDao {
         String sqlStr = "SELECT COUNT(*) FROM t_user WHERE user_name = ? and password = ?";
         Object[] a = new Object[] {userName, password};
         System.out.print("测试git======");
+        System.out.print("测试git=====2222222222=");
         return jdbcTemplate.queryForObject(sqlStr, a, Integer.class);
     }
 }
