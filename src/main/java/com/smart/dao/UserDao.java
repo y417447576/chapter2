@@ -25,6 +25,7 @@ public class UserDao {
         Object[] a = new Object[] {userName, password};
         System.out.print("测试git======");
         System.out.print("测试git=====2222222222=");
+        System.out.print("测试git=====33333333333333333333333333333333333=");
         return jdbcTemplate.queryForObject(sqlStr, a, Integer.class);
     }
 }
