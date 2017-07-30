@@ -1195,7 +1195,7 @@
       <workItem from="1500998344290" duration="671000" />
       <workItem from="1501077140238" duration="5879000" />
       <workItem from="1501334134725" duration="1802000" />
-      <workItem from="1501422951874" duration="4404000" />
+      <workItem from="1501422951874" duration="4577000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交文件">
       <created>1500215912669</created>
@@ -1246,7 +1246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501424155133</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="新增smart-servlet配置文件，login.jsp(待完成)">
+      <created>1501427440780</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1501427440780</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1282,7 +1289,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32517000" />
+    <option name="totallyTimeSpent" value="32690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-49" y="444" width="1932" height="1048" extended-state="0" />
@@ -1363,7 +1370,8 @@
     <MESSAGE value="新增findUserByUserName()\updateLoginInfo()方法" />
     <MESSAGE value="提交测试用例（待完成）" />
     <MESSAGE value="测试用例完成，web.xml配置完成，增加controller包" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试用例完成，web.xml配置完成，增加controller包" />
+    <MESSAGE value="新增smart-servlet配置文件，login.jsp(待完成)" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增smart-servlet配置文件，login.jsp(待完成)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
