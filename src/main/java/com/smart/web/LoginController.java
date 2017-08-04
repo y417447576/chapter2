@@ -2,6 +2,7 @@ package com.smart.web;
 
 import com.smart.domain.User;
 import com.smart.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -15,7 +16,8 @@ import java.util.Date;
 @Controller
 public class LoginController {
 
-        private UserService userService;
+    @Autowired
+    private UserService userService;
 
 //        负责处理/index.html的请求
     @RequestMapping(value = "/index.html")
