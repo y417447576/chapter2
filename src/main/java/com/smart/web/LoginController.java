@@ -29,8 +29,8 @@ public class LoginController {
         return userService;
     }
 
-    //处理longinCheck.html的请求
-    @RequestMapping(value = "/longinCheck.html")
+    //处理loginCheck.html的请求
+    @RequestMapping(value = "/loginCheck.html")
     public ModelAndView loginCheck(HttpServletRequest requst, LoginCommand loginCommand) {
         boolean isValidUser = userService.hasMatchUser(loginCommand.getUserName(), loginCommand.getPassword());
         if (!isValidUser) {
