@@ -15,7 +15,7 @@ public class LoginLogDao {
 
     //保存登录日志SQL
     private final static String INSERT_LONGIN_LOG_SQL =
-            "INSERT INTO t_login_log(user_id,ip,login_datetime) VALUES(?,?,?)";
+            "INSERT INTO t_login(user_id,ip,login_datetime) VALUES(?,?,?)";
     public void insetLonginLog (LoginLog loginLog) {
         Object[] args = {loginLog.getUserId(), loginLog.getIp(), loginLog.getLoginDate()};
         jdbcTemplate.update(INSERT_LONGIN_LOG_SQL, args);
