@@ -43,12 +43,13 @@
           <!--<stopKey>foo</stopKey>-->
           <connectors>
             <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-              <port>8081</port>
+              <port>8888</port>
               <maxIdleTime>30000</maxIdleTime>
             </connector>
           </connectors>
           <webAppSourceDirectory>${project.build.directory}/${pom.artifactId}-${pom.version}</webAppSourceDirectory>
           <contextPath>/bbs</contextPath>
+          <!--<webDefaultXml>webdefault.xml</webDefaultXml>-->
         </configuration>
       </plugin>
 
@@ -61,9 +62,6 @@
       <!--</plugin>-->
     </plugins>
 
-      <!--<plugins>-->
-        <!---->
-      <!--</plugins>-->
   </build>
 
   <dependencies>

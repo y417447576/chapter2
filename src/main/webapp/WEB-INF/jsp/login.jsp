@@ -3,7 +3,7 @@
 <%@ taglib prefix="empty" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>测试1111</title>
+    <title>login.jsp</title>
 </head>
 <body>
     <c:if test="${!empty error}">
@@ -16,7 +16,7 @@
         密码：
         <input type="password" name="password">
         <br>
-        <input type="submit" value="登录111"/>
+        <input type="submit" value="登录"/>
         <input type="reset" value="重置"/>
     </form>
 
