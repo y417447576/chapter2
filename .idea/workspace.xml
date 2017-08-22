@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1c9ef4-f719-4ccd-a28b-34b423fd6075" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/rebel.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/chapter-1.0-SNAPSHOT/WEB-INF/classes/com/smart/dao/LoginLogDao.class" afterPath="$PROJECT_DIR$/target/chapter-1.0-SNAPSHOT/WEB-INF/classes/com/smart/dao/LoginLogDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/smart/dao/LoginLogDao.class" afterPath="$PROJECT_DIR$/target/classes/com/smart/dao/LoginLogDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter2.iml" afterPath="$PROJECT_DIR$/chapter2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,8 +86,8 @@
       <file leaf-file-name="LoginLogDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/dao/LoginLogDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="234">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <marker date="1501916694568" expanded="true" signature="438:498" ph="INSERT INTO t_login... " />
               </folding>
@@ -1153,7 +1147,7 @@
       <workItem from="1501904810896" duration="2240000" />
       <workItem from="1501916030576" duration="6755000" />
       <workItem from="1502068308478" duration="615000" />
-      <workItem from="1503386386980" duration="421000" />
+      <workItem from="1503386386980" duration="1385000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交文件">
       <created>1500215912669</created>
@@ -1225,7 +1219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501920548081</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="提交代码">
+      <created>1503386859583</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1503386859583</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1261,7 +1262,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68408000" />
+    <option name="totallyTimeSpent" value="69372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1351,7 +1352,8 @@
     <MESSAGE value="新增smart-servlet配置文件，login.jsp(待完成)" />
     <MESSAGE value="修改sql语句" />
     <MESSAGE value="修改错误单词longin" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改错误单词longin" />
+    <MESSAGE value="提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1713,8 +1715,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/dao/LoginLogDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="234">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <marker date="1501916694568" expanded="true" signature="438:498" ph="INSERT INTO t_login... " />
           </folding>
